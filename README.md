@@ -47,7 +47,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## Contact
 For questions or support, please contact [Ibrahim](mailto:ibrahimshittu007@gmail.com).
-
-## Acknowledgments
-- The Spring Boot and MySQL communities for providing excellent tools and resources.
-- Special thanks to Chad Darby for his contribution to this project.
