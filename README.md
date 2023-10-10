@@ -7,9 +7,8 @@ The Backend eCommerce Project is a robust backend system for an online shopping 
 
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
-- [Usage](#usage)
-  - [Endpoints](#endpoints)
 - [Features](#features)
+- [Usage](#usage)
 - [Contributing](#contributing)
 
 ## Technologies Used
@@ -23,20 +22,21 @@ The Backend eCommerce Project is a robust backend system for an online shopping 
 
 ## Features
 
-### Product Management
-- Read Only operation for products.
-- Product categorization by assigning products to categories.
-- Search and filtering products by category and name.
-- Product details including name, description, and price.
+Our E-commerce Backend App offers a comprehensive set of features to support a seamless online shopping experience:
 
-### Product Categories
-- Read only  operation for product categories.
-- Categorize products for easy navigation and search.
-- Assign multiple categories to a single product.
+- **Order Management**: Create, retrieve, and manage customer orders efficiently.
+- **Product Inventory**: Keep track of available products and their details.
+- **Customer Management**: Manage customer information and profiles.
+- **Order Tracking**: Assign and track unique order tracking numbers.
+- **Secure Authentication**: Implement secure user authentication and access control.
+- **API Integration**: Interact with external APIs to retrieve product information.
+- **Payment Gateway Integration**: Seamlessly integrate payment gateways for order processing.
+- **Location Management**: Store and manage location data for shipping and fulfillment.
+- **Database Storage**: Utilize a MySQL database to store and manage order data.
+- **Testing and Quality Assurance**: Rigorous testing and quality checks to ensure reliability.
 
-### Location Management
-- Management of states and selected countries for shipping and billing information.
-- Support for international shipping.
+We are continually enhancing our app with new features and improvements to provide a comprehensive e-commerce solution.
+
 
 
 ## Usage
@@ -89,6 +89,12 @@ The Backend eCommerce Project is a robust backend system for an online shopping 
                }
             ]
          }
+
+    - Response Example:
+      ```json
+      {
+          "orderTrackingNumber": "997e311f-be72-4c45-98ac-86e5541f4c5e"
+      }
                  
 
 ## Contributing
