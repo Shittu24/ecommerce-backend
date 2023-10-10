@@ -11,6 +11,36 @@ The Backend eCommerce Project is a robust backend system for an online shopping 
 - [Usage](#usage)
 - [Contributing](#contributing)
 
+## Installation
+
+To get started with our E-commerce Backend App, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Shittu24/ecommerce-backend.git
+   cd ecommerce-backend
+
+2. **Set up MySQL Database:**
+   - Ensure you have MySQL installed on your system.
+   - Create a MySQL database for the application.
+   - Update the database configuration in `src/main/resources/application.properties` with your database settings:
+  
+     ```bash
+   spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
+   spring.datasource.username=your_username
+   spring.datasource.password=your_password
+
+3. **Build and run the application:**
+
+   ```bash
+   ./mvnw clean install
+   ./mvnw spring-boot:run
+
+The application should now be up and running.
+
+
+
 ## Technologies Used
 - **Java**: The primary programming language.
 - **Spring Boot**: A powerful framework for building Java applications.
