@@ -27,9 +27,9 @@ To get started with our E-commerce Backend App, follow these steps:
    - Update the database configuration in `src/main/resources/application.properties` with your database settings:
   
      ```bash
-      spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
-      spring.datasource.username=your_username
-      spring.datasource.password=your_password
+     spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
+     spring.datasource.username=your_username
+     spring.datasource.password=your_password
 
 3. **Build and run the application:**
 
